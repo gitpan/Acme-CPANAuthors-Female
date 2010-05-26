@@ -1,0 +1,9 @@
+Changes
+LICENSE
+MANIFEST
+META.yml
+README
+dist.ini
+lib/Acme/CPANAuthors/Female.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t

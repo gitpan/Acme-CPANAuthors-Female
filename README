@@ -1,0 +1,38 @@
+NAME
+    Acme::CPANAuthors::Female - We are female CPAN authors
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+       use Acme::CPANAuthors;
+       use Acme::CPANAuthors::Female;
+
+       my $authors = Acme::CPANAuthors->new('Female');
+
+       my $number   = $authors->count;
+       my @ids      = $authors->id;
+       my @distros  = $authors->distributions('AUDREYT');
+       my $url      = $authors->avatar_url('CINDY');
+       my $kwalitee = $authors->kwalitee('ARANDAL');
+
+DESCRIPTION
+    This class is used to provide a hash of female CPAN author's PAUSE
+    id/name to Acme::CPANAuthors. I started this out of sheer curiosity; I
+    happen to be a male myself.
+
+    If you are a female and/or can confirm more females among us CPAN
+    authors, please fork the github repository and supply a patch.
+
+SEE ALSO
+    Acme::CPANAuthors - Main class to manipulate this one
+
+AUTHOR
+      Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2010 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

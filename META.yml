@@ -1,0 +1,21 @@
+---
+abstract: 'We are female CPAN authors'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  Module::Build: 0.3601
+configure_requires:
+  Module::Build: 0.3601
+generated_by: 'Dist::Zilla version 2.101241'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Acme-CPANAuthors-Female
+recommends: {}
+requires:
+  Acme::CPANAuthors: 0
+resources:
+  homepage: http://search.cpan.org/dist/perl-Acme-CPANAuthors-Female/
+  repository: http://github.com/sharyanto/perl-Acme-CPANAuthors-Female
+version: 0.01
