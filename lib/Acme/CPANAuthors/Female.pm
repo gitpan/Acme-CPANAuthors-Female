@@ -1,6 +1,6 @@
 package Acme::CPANAuthors::Female;
 BEGIN {
-  $Acme::CPANAuthors::Female::VERSION = '0.01';
+  $Acme::CPANAuthors::Female::VERSION = '0.02';
 }
 
 # ABSTRACT: We are female CPAN authors
@@ -15,7 +15,6 @@ use Acme::CPANAuthors::Register (
     ELISHEVA    => 'Elizabeth Grace Frank-Backman',
     ELIZABETH   => 'Elizabeth Mattijsen',
     HFB         => 'Elaine Ashton',
-    IMACAT      => '依瑪貓 - Yi Ma Mao',
     KUDRA       => 'Ann Barcomb',
     #PJF         => 'Paul Jamieson Fenwick', # but co-maintained by Jacinta Richardson?
     SKUD        => 'Kirrily \'Skud\' Robert',
@@ -35,7 +34,7 @@ Acme::CPANAuthors::Female - We are female CPAN authors
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -65,11 +64,11 @@ L<Acme::CPANAuthors> - Main class to manipulate this one
 
 =head1 AUTHOR
 
-  Steven Haryanto <stevenharyanto@gmail.com>
+Steven Haryanto <stevenharyanto@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Steven Haryanto.
+This software is copyright (c) 2011 by Steven Haryanto.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
